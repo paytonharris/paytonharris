@@ -1,46 +1,45 @@
-# Getting Started with Create React App
+# Hello!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ I'm Payton Harris, full stack software engineer with a focus on React Native and iOS Swift!
 
-## Available Scripts
+# Projects
 
-In the project directory, you can run:
+## Personal Site
 
-### `npm start`
+<img src="https://github.com/paytonharris/paytonharris/blob/master/images/paytonharris.png?raw=true" alt="payton harris personal site preview" width="400"/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+paytonharris.com
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+A business card style site with links reach me.
 
-### `npm test`
+View the [code for it on GitHub](https://github.com/paytonharris/payton-site). 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+It's written in React and hosted using AWS S3, CloudFront, and Route 53.
 
-### `npm run build`
+## Unheard Noise
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img src="https://github.com/paytonharris/paytonharris/blob/master/images/unheardnoise.png?raw=true" alt="unheard noise site preview" width="400"/>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+View on [unheardnoise.web.app](https://unheardnoise.web.app).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+A React site that plays a random highly-rated album to wake up your senses to something beautiful you've never heard before.
 
-### `npm run eject`
+This project had several facets. First, I created a __Node.js__ script to scrape highly-rated albums from my favorite critic's site using __cheerio.js__, then placed the results in a __Cloud Firestore__ database. Then I created an API endpoint using __Cloud Functions__ which retrieves a random album from the Firestore database. The website uses this endpoint to get the name of a great album, which it uses to search the __YouTube API__ for the first video result, and then plays the video.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Check out how the background color of the site changes over time. Every 30 seconds, it chooses two new random colors to use as a gradient, then slowly fades to it. This creates lots of colorful combinations over time, and is probably my favorite thing about this project. 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The randomness of the YouTube result adds another sense of adventure to the site. Sometimes you get the full album, other times a review of the album or an interview. 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+This idea could also be used for great movie clips, lectures, philosophers, and so much more, simply by adding more entries to the database.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+_Secret: Press `h` on the website to hide the video player for added immersion and surprise._
 
-## Learn More
+## Collector
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<img src="https://github.com/paytonharris/paytonharris/blob/master/images/collector.png?raw=true" alt="collector site preview" width="400"/>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+A React puzzle game themed around writing programming commands by sifting through memory garbage.
+
+*Notice how the text on the home page becomes scrambled over time, like memory becoming corrupted.*
+
+Hosted on Google Cloud [here](https://collector-188a6.web.app). View [the code on GitHub](https://collector-188a6.web.app). 
