@@ -46,13 +46,6 @@ A __React Native__ / __Redux__ app where users can create groups and chat, share
   <img src="https://github.com/paytonharris/paytonharris/blob/master/images/gg-chat.jpg?raw=true" alt="groupgram chat" width="175"/>
   <img src="https://github.com/paytonharris/paytonharris/blob/master/images/gg-done.jpg?raw=true" alt="additional groupgram chat" width="175"/>
 </div>
-<p float="left" align='center'>
-  <img src="https://github.com/paytonharris/paytonharris/blob/master/images/gg-signin.jpg?raw=true" alt="groupgram sign-in" width="175"/>
-  <img src="https://github.com/paytonharris/paytonharris/blob/master/images/gg-home.jpg?raw=true" alt="groupgram home" width="175"/>
-  <img src="https://github.com/paytonharris/paytonharris/blob/master/images/gg-chat.jpg?raw=true" alt="groupgram chat" width="175"/>
-  <img src="https://github.com/paytonharris/paytonharris/blob/master/images/gg-done.jpg?raw=true" alt="additional groupgram chat" width="175"/>
-</p>
-
 
 ## Collector
 
