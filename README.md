@@ -40,10 +40,19 @@ View the [code on GitHub](https://github.com/paytonharris/unheardnoise).
 
 A __React Native__ / __Redux__ app where users can create groups and chat, share pictures, and like posts. Users could take pictures directly from the app, and other users were notified to the new message via push notifications. It uses the __Google Cloud__ for authentication, __Firestore__ for chat data and group metadata (likes, title, members, etc.), and __Cloud Storage__ for images. My family used this app to document building our back deck.
 
-<img src="https://github.com/paytonharris/paytonharris/blob/master/images/gg-signin.jpg?raw=true" alt="groupgram sign-in" width="175"/>
-<img src="https://github.com/paytonharris/paytonharris/blob/master/images/gg-home.jpg?raw=true" alt="groupgram home" width="175"/>
-<img src="https://github.com/paytonharris/paytonharris/blob/master/images/gg-chat.jpg?raw=true" alt="groupgram chat" width="175"/>
-<img src="https://github.com/paytonharris/paytonharris/blob/master/images/gg-done.jpg?raw=true" alt="additional groupgram chat" width="175"/>
+<div display='flex' flex-direction='row' width='100%'>
+  <img src="https://github.com/paytonharris/paytonharris/blob/master/images/gg-signin.jpg?raw=true" alt="groupgram sign-in" width="175"/>
+  <img src="https://github.com/paytonharris/paytonharris/blob/master/images/gg-home.jpg?raw=true" alt="groupgram home" width="175"/>
+  <img src="https://github.com/paytonharris/paytonharris/blob/master/images/gg-chat.jpg?raw=true" alt="groupgram chat" width="175"/>
+  <img src="https://github.com/paytonharris/paytonharris/blob/master/images/gg-done.jpg?raw=true" alt="additional groupgram chat" width="175"/>
+</div>
+<p float="left" align='center'>
+  <img src="https://github.com/paytonharris/paytonharris/blob/master/images/gg-signin.jpg?raw=true" alt="groupgram sign-in" width="175"/>
+  <img src="https://github.com/paytonharris/paytonharris/blob/master/images/gg-home.jpg?raw=true" alt="groupgram home" width="175"/>
+  <img src="https://github.com/paytonharris/paytonharris/blob/master/images/gg-chat.jpg?raw=true" alt="groupgram chat" width="175"/>
+  <img src="https://github.com/paytonharris/paytonharris/blob/master/images/gg-done.jpg?raw=true" alt="additional groupgram chat" width="175"/>
+</p>
+
 
 ## Collector
 
